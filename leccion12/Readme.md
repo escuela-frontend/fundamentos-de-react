@@ -6,7 +6,7 @@ La gran diferencia con los componentes controlados, es que en este caso el eleme
 
 Para escribir un componente no controlado conoceremos brevemente otro **hook**.
 
-En estos componentes, en vez de escribir un manejador de eventos para cada actualización de estado podemos usar un **ref**  para obtener los valores directamente desde el DOM.
+En estos componentes, en vez de escribir un manejador de eventos para cada actualización de estado podemos usar un **ref** para obtener los valores directamente desde el DOM.
 
 Un **ref** es una "válvula de escape" del flujo de datos de un componente React. El flujo normal es que las `props` sean la única forma en que un componente padre interactúe con los componente que renderiza. Si necesitas modificar un componente hijo, simplemente actualizas las `props` y este se re-renderizará.
 
@@ -16,12 +16,12 @@ Un **ref** es una "válvula de escape" del flujo de datos de un componente React
 - Inicializar animaciones de forma imperativa.
 - Integración de librerías externas no directamente compatibles con React.
 
-Para crear un **ref**  utilizamos el hook `useRef` que crea un objeto que se mantiene consistente entre diferentes renderizados del componente, es decir, cuando el ref cambia no se lanza un nuevo render. El objeto tiene un atributo llamado `current` que se mantiene actualizado. Para interactuar con el DOM, puedes pasar el `ref` a cualquier elemento y React se enlazar el valor de `current` con el elemento en el DOM.
+Para crear un **ref** utilizamos el hook `useRef` que crea un objeto que se mantiene consistente entre diferentes renderizados del componente, es decir, cuando el ref cambia no se lanza un nuevo render. El objeto tiene un atributo llamado `current` que se mantiene actualizado. Para interactuar con el DOM, puedes pasar el `ref` a cualquier elemento y React se enlazar el valor de `current` con el elemento en el DOM.
 
 ```javascript
 const Component = () => {
 	const inputRef = React.useRef()
-	
+
 	const onClickButton = () > {
 		console.log(inputRef.current.value)
 	}
@@ -58,6 +58,6 @@ Para esto usaremos **componentes no-controlados** y definiremos una función par
 1. Define el evento `onSubmit` para el form.
 2. Captura los datos desde los ref utilizados.
 
-
 ## 📣 Feedback
+
 Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2012s)

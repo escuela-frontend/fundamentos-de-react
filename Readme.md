@@ -1,16 +1,18 @@
-# 🎉 Bienvenido 
+# 🎉 Bienvenido
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 🚌 Fundamentos de React
 
 - Demo app:
 
-En este workshop aprenderás los diferentes conceptos base que fundamentan el cómo y por qué de ciertas prácticas en React. Revisaremos que necesidad viene a cubrir, desde donde nace su API, el uso de JSX, como manejar estilos, eventos y estado de un componente
+En este tutorial aprenderás los diferentes conceptos base que fundamentan el cómo y por qué de ciertas prácticas en React. Revisaremos que necesidad viene a cubrir, desde donde nace su API, el uso de JSX, como manejar estilos, eventos y estado de un componente
 
-## 👨🏻‍💻 Resumen del Workshop
+## 👨🏻‍💻 Resumen del tutorial
 
 Ok. ¿listo y ansioso de aprender?, genial, este será un viaje divertido y lleno de desafíos. Algunas de las cosas que podrás aprender serán:
 
@@ -23,7 +25,6 @@ Ok. ¿listo y ansioso de aprender?, genial, este será un viaje divertido y llen
 - Cómo renderizar listas de datos y que es la prop key.
 - Cómo manejar formularios y eventos mendiante manipulación del estado.
 
-
 ## 👨🏻‍💻¿Quién soy?
 
 👋 Soy [Matías Hernández](https://matiashernandez.dev), padre, desarrollador, podcaster, escritor e instructor.
@@ -34,7 +35,7 @@ Me encanta lo que hago y trato de traer la misma pasión a la creación de conte
 
 Puedes encontrarme en twitter como [@matiasfha](https://twitter.com/matiasfha)
 
-## ⏰ Antes del workshop
+## ⏰ Antes del tutorial
 
 ¿Que necesitas saber para iniciar tu camino con React?
 
@@ -49,15 +50,16 @@ Primero, y por sobre todo, necesitas conocer conceptos fundamentales sobre desar
 - [Métodos de arreglos.](https://escuelafrontend.com/articulos/metodos-de-arreglos)
 - Promesas, async/await.
 
-Te invito a revisar tus conocimientos en esas áreas para que puedas sacar el máximo provecho a este workshop.
+Te invito a revisar tus conocimientos en esas áreas para que puedas sacar el máximo provecho a este tutorial.
 
 Puedes revisar mi newsletter [Microbytes](https://microbytes.dev) y unirte al curso Javascript para React donde encontrarás más material al respecto.
 
 ### 🛠 Requerimientos
 
-Para aprovechar al máximo nuestro tiempo durante el workshop, por favor realiza los siguientes pasos antes de iniciar:
+Para aprovechar al máximo nuestro tiempo durante el tutorial, por favor realiza los siguientes pasos antes de iniciar:
 
 #### Requerimientos del sistema
+
 - [git](https://git-scm.com/) v2.13 o superior
 - [NodeJS](https://nodejs.org/) `12 || 14 || 15 || 16`
 - [npm](https://www.npmjs.com/) v6 o superio
@@ -77,18 +79,19 @@ npm --version
 - [ ] Clona este repositorio, en la terminal ejecuta:
 
 ```shell
-git clone https://github.com/matiasfha/workshop-react-desde-cero.git
+git clone https://github.com/matiasfha/tutorial-react-desde-cero.git
 ```
 
 - [ ] Instala las dependencias
 
 ```shell
-cd workshop-react-desde-cero
+cd tutorial-react-desde-cero
 npm install
 ```
+
 > Esto puede tardar unos minutos dependeniendo de tu conexión.
 
-Si tienes algún error durante este proceso por favor [completa un issue](https://github.com/matiasfha/workshop-react-desde-cero/issues/new) en el reposotiorio. Escribe en el toda la información de los pasos realizados y el resultado del script que ejecutaste
+Si tienes algún error durante este proceso por favor [completa un issue](https://github.com/matiasfha/tutorial-react-desde-cero/issues/new) en el reposotiorio. Escribe en el toda la información de los pasos realizados y el resultado del script que ejecutaste
 
 #### Ejecutando los ejercicios
 
@@ -104,16 +107,11 @@ Esto te mostrará una lista de opciones con el nombre de la lección. Selecciona
 
 - [ ] Ten listo tu editor de código favorito para resolver los ejercicios
 
-
-
 ### ❓ ¿Cómo ejecutar las lecciones?
 
 Cada lección "vive" dentro de su propio directorio dentro de este monorepo, para ejecutar el ejercicio de una lección en particular sólo debes, desde la terminal, ejecutar `npm run dev`. Esto te mostrará una lista de las lecciones donde podrás seleccionar utilizando el teclado.
 
-
-
-
-## 📝 Sobre el workshop
+## 📝 Sobre el tutorial
 
 ### Estructura de las lecciones
 

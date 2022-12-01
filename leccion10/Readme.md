@@ -19,11 +19,11 @@ Estos eventos son implementados de forma compatible con todos los navegadores (b
 
 La idea de usar esta API es que React normaliza los eventos para hacer que funcionen de la misma manera en todos los navegadores.
 
-Ahora, volviendo al uso de `preventDefault`.  ¿Cómo evitas el comportamiento por defecto de un evento?. Simplemente accediendo al argumento evento y llamando `preventDefault`
+Ahora, volviendo al uso de `preventDefault`. ¿Cómo evitas el comportamiento por defecto de un evento?. Simplemente accediendo al argumento evento y llamando `preventDefault`
 
 ```javascript
 function onClickEvent(event) {
-	event.preventDefault()
+  event.preventDefault()
 }
 ```
 
@@ -31,7 +31,9 @@ Una práctica común, es utilizar los eventos para pasar ciertos datos de un lad
 
 ```javascript
 items.map(item => {
-	<button onClick={(event) => onClickHandler(event, item.id)}>{item.name}</button>
+  ;<button onClick={event => onClickHandler(event, item.id)}>
+    {item.name}
+  </button>
 })
 ```
 
@@ -63,4 +65,5 @@ Para esta lección usaremos algunos elementos que solicitan acciones de usuario 
 1. Crea un **componente** `Button` que acepta una prop `onClick`. Esta función estará definida en el componente padre.
 
 ## 📣 Feedback
+
 Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2010)

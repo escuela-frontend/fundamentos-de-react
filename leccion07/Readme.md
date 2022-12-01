@@ -13,12 +13,8 @@ Las props son la forma en que los componentes se comunican entre si, es su API, 
 Los valores pasados por medio de la prop `children` son después renderizados por el componente que las acepta.
 
 ```javascript
-function BoxContainer({ children}) {
-	return (
-		<div className="box-container">
-			{children}
-		</div>
-	)
+function BoxContainer({children}) {
+  return <div className="box-container">{children}</div>
 }
 ```
 
@@ -26,15 +22,15 @@ Esto permite que otros componentes puedan utilizar `BoxContainer` como padre.
 
 ```javascript
 function App() {
-	return (
-		<BoxContainer>
-			<h1>Welcome</h1>
-			<Dashboard>
-				<DashboardNavBar />
-				<DashboardContent />
-			</Dashboard>
-		</BoxContainer>
-	)
+  return (
+    <BoxContainer>
+      <h1>Welcome</h1>
+      <Dashboard>
+        <DashboardNavBar />
+        <DashboardContent />
+      </Dashboard>
+    </BoxContainer>
+  )
 }
 ```
 
@@ -48,35 +44,29 @@ Las prop pueden recibir cualquier tipo de dato, primitiva o función y un compon
 
 ```javascript
 function App() {
-	return (
-		<BoxContainer>
-			<h1>Welcome</h1>
-			<Dashboard
-				navbar={<DashboardNavBar />}				footer={<DashboardFooter />}
-			>
-				<DashboardContent />
-			</Dashboard>
-		</BoxContainer>
-	)
+  return (
+    <BoxContainer>
+      <h1>Welcome</h1>
+      <Dashboard navbar={<DashboardNavBar />} footer={<DashboardFooter />}>
+        <DashboardContent />
+      </Dashboard>
+    </BoxContainer>
+  )
 }
 ```
 
 En este ejemplo el componente `Dashboard` recibe dos nuevas props `navbar` y `footer` que aceptan un componente cada una. Si miramos dentro del componente podremos tener algo así.
 
 ```javascript
-function Dashboard({ navbar, footer, children }) {
-	return (
-		<div className="dashboard-container">
-			<nav className="dashboard-nav">
-				{navbar}
-			</nav>
-			<h1>This is the Dashboard</h1>
-			<div className="dashboard-content">
-				{children}
-			</div>
-			{footer}
-		</div>
-	)
+function Dashboard({navbar, footer, children}) {
+  return (
+    <div className="dashboard-container">
+      <nav className="dashboard-nav">{navbar}</nav>
+      <h1>This is the Dashboard</h1>
+      <div className="dashboard-content">{children}</div>
+      {footer}
+    </div>
+  )
 }
 ```
 
@@ -103,10 +93,11 @@ Para eso crearás algunos componentes base con los que “compondrás” una int
 
 - 1. Define que props debe utilizar el componente `Page` para poder renderizar las distintas partes de la página
 - 2. Utiliza interpolación para renderizar los diferentes componentes hijos
- 
+
 ## 🍬 Crédito Extra
 
 - Declara props en los componentes hijos: `PageBody` y `Footer`. Define estas props en el componente `App`. ¿Cómo puedes pasar estas props para ser renderizadas?
 
 ## 📣 Feedback
+
 Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2007)

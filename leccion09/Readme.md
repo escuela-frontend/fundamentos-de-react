@@ -13,7 +13,7 @@ const Title = () => {
 	return <h1 className="title">Hola Mundo!</h1>
 }
 
-↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ 
+↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓
 
 HTML
 <div style="border:1px red solid; height: 20px; width: 100px">Hola Mundo!</div>
@@ -21,7 +21,7 @@ HTML
 <h1 class="title">Hola Mundo!</h1>
 ```
 
-En el primer ejemplo puedes notar que el uso de la prop `style` es muy similar a como utilizas estilos `in-line` en  HTML, la gran diferencia aquí es que en React la prop `style` recibe un objeto (por eso se usan dobles llaves `{{` una para iniciar la interpolación y otra para definir el objeto). La otra diferencia es que las propiedades CSS son escritas en formato `camelCase` ¿por qué? Recuerda que JSX es básicamente javascript, babel se encarga de transformarlo a simples llamadas a `React.createElement`. Esta llamada hace uso de la propiedad `style` del DOM que utiliza el formato `camelCase` (la propiedad `style`  del DOM utiliza un objeto tipo [CSSStyleDeclaration](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration) )
+En el primer ejemplo puedes notar que el uso de la prop `style` es muy similar a como utilizas estilos `in-line` en HTML, la gran diferencia aquí es que en React la prop `style` recibe un objeto (por eso se usan dobles llaves `{{` una para iniciar la interpolación y otra para definir el objeto). La otra diferencia es que las propiedades CSS son escritas en formato `camelCase` ¿por qué? Recuerda que JSX es básicamente javascript, babel se encarga de transformarlo a simples llamadas a `React.createElement`. Esta llamada hace uso de la propiedad `style` del DOM que utiliza el formato `camelCase` (la propiedad `style` del DOM utiliza un objeto tipo [CSSStyleDeclaration](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration) )
 
 La siguiente prop que podemos usar es `className` , esta es una de las pocas diferencias con HTML, `className` es lo mismo que usar `class`, es decir, acepta un string con los nombres de las clases CSS que serán aplicadas.
 
@@ -29,9 +29,9 @@ Estas son las formas básicas en que puedes aplicar estilos a tus componentes ut
 
 Pero recuerda que la idea de los componentes es que estos encapsulen tanto lógica como representación, por lo que los estilos también deberían estar encapsulados. Para lograr esto existen varias técnicas entre ellas.
 
-- **inline styles:**  Esta es la forma base de la modularización de los estilos. Simplemente usando la prop `style` puedes pasar estilos que afectan solo al componente en juego.
+- **inline styles:** Esta es la forma base de la modularización de los estilos. Simplemente usando la prop `style` puedes pasar estilos que afectan solo al componente en juego.
 - **CSS Modules**: Esta técnica te permite importar archivos css directamente en tu archivo javascript de un componente en particular, el css generado aquí afecta exclusivamente a tu componente.
-- **CSS-in-JS**:  La idea de esta técnica es escribir el código css directamente usando el poder de javascript, dentro de esta area se encuentra styled-componentes
+- **CSS-in-JS**: La idea de esta técnica es escribir el código css directamente usando el poder de javascript, dentro de esta area se encuentra styled-componentes
 
 Revisaremos estas técnicas más avanzadas en una siguiente lección, por ahora usaremos la forma básica de agregar estilos a nuestra aplicación estática.
 
@@ -43,27 +43,27 @@ Tendremos el siguiente css disponible en nuestra página
 
 ```css
 .list {
-	  list-style: none
-	}
-	.item {
-	  background-color: lightblue;
-	  padding: 10px;
-	  border: 1px blue solid;
-	  border-radius: 5px;
-	  margin: 5px;
-	}
-	.item--red {
-	  background-color: red;
-	}
-	.item--blue {
-	  background-color: lightblue;
-	}
-	.item--purple {
-	  background-color:purple ;
-	}
-	.item--underline {
-	  text-decoration: underline;
-	}
+  list-style: none;
+}
+.item {
+  background-color: lightblue;
+  padding: 10px;
+  border: 1px blue solid;
+  border-radius: 5px;
+  margin: 5px;
+}
+.item--red {
+  background-color: red;
+}
+.item--blue {
+  background-color: lightblue;
+}
+.item--purple {
+  background-color: purple;
+}
+.item--underline {
+  text-decoration: underline;
+}
 ```
 
 Tu trabajo será utilizar estos estilos en tus componentes aplicando lo que hemos aprendido hasta ahora.
@@ -88,4 +88,5 @@ Tu trabajo será utilizar estos estilos en tus componentes aplicando lo que hemo
 2. Permite que el componente `Item` reciba una prop para modificar la clase css base.
 
 ## 📣 Feedback
+
 Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2009)

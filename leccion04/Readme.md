@@ -34,11 +34,11 @@ Además tenemos que realizar una pequeña modificación extra, en el tag `<scrip
 
 Para este ejercicio crearás un elemento `h1` utilizando JSX y lo desplegarás en la página principal.
 
-
 ## 🍬 Crédito Extra
 
 1. Utilizando `JSX` crea una lista de 3 elementos utilizando `ul` y `li`.
 2. Ahora, usando la lista antes creada ¿Cómo automatizarías la creación de múltiples items `li` ?
 
 ## 📣 Feedback
+
 Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2004)

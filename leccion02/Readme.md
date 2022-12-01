@@ -4,7 +4,6 @@ Hay muchas formas de utilizar React para nuestros desarrollos, la forma más sim
 
 > Revisa otras formas de crear una aplicación React [en este artículo](https://escuelafrontend.com/articulos/como-crear-una-aplicacion-en-react) para Escuela Frontend
 
-
 Para crear una aplicación React en realidad necesitas dos librerías. React, que es la librería que se encarga de manejar el DOM virtual, interpretar tus componentes y manejar el estado y luego una librería que se encargue de traducir todo eso al “lenguaje” del dispositivo que estás usando, en el caso del browser hablamos de ReactDOM.
 
 ReactDOM es la librería responsable de comunicarse con las API del DOM y renderizar los elementos en tu pantalla.
@@ -35,8 +34,14 @@ Ahora haremos que React entre en juego, para eso utilizaremos una versión empac
 Tip: El snippet de código que necesitas es
 
 ```html
-<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<script
+  src="https://unpkg.com/react@17/umd/react.development.js"
+  crossorigin
+></script>
+<script
+  src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+  crossorigin
+></script>
 ```
 
 3. Explorar nuestros archivos y verificar que React está disponible
@@ -50,6 +55,3 @@ Debes revisar que al cargar el archivo html React esté disponible en el scope g
 ## 🍬 Crédito Extra
 
 - Escribe en tu archivo un simple console.log para identificar que `React` está disponible.
-
-## 📣 Feedback
-Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2002)

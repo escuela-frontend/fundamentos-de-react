@@ -13,9 +13,7 @@ Para poder renderizar una lista debemos iterar sobre ella y como ya revisamos en
 Un componente React acepta arreglos de valores o componentes en su prop `children` por lo que podemos transformar los elementos de arreglo en un nuevo componente o simplemente renderizar el arreglo directamente.
 
 ```jsx
-const ui = (
-    arreglo.map(item => <span>item</span>)
-)
+const ui = arreglo.map(item => <span>item</span>)
 ```
 
 Una vez que tenemos el arreglo renderizado podemos ver que React nos avisa de un problema: Nos falta definir una prop llamad a `key` en nuestros compoenntes.
@@ -31,8 +29,6 @@ Pero las cosas se complican cuando alguno de los elementos del arreglo es un com
 > Aquí estado puede ser tanto estado interno de un componente personalizado o incluso estado de un elemento HTML como un input.
 
 Puedes profundizar más sobre como funciona la prop `key` revisando el siguiente artículo en Escuela Frontend: [¿Cómo funciona la prop key en React?](https://escuelafrontend.com/articulos/como-funciona-la-prop-key-en-react)
-
-
 
 ## 🐾 Primeros Pasos
 
@@ -51,8 +47,8 @@ En esta lección trabajaremos renderizando múltples elementos de forma “autom
 
 ## 🍬 Crédito Extra
 
-- Revisa el siguiente demo sobre como funciona la prop `key`. ¿Cuál es el problema al eliminar elementos?. ¿Cómo el uso de la prop `key`afecta el funcionamiento del demo?
-[https://codesandbox.io/s/react-array-keys-qmwwk?from-embed=&file=/src/App.js](https://codesandbox.io/s/react-array-keys-qmwwk?from-embed=&file=/src/App.js)
+- Revisa el siguiente demo sobre como funciona la prop `key`. ¿Cuál es el problema al eliminar elementos?. ¿Cómo el uso de la prop `key`afecta el funcionamiento del demo? [https://codesandbox.io/s/react-array-keys-qmwwk?from-embed=&file=/src/App.js](https://codesandbox.io/s/react-array-keys-qmwwk?from-embed=&file=/src/App.js)
 
 ## 📣 Feedback
+
 Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2008)

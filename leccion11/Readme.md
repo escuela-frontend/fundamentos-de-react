@@ -20,7 +20,7 @@ La forma en que utilizas el estado en React es por medio de la función llamada 
 Su forma de uso es sencilla
 
 ```javascript
-const [ count, setCount ] = React.useState(0)
+const [count, setCount] = React.useState(0)
 ```
 
 La función recibe un argumento que representa el estado inicial, en este caso el valor `0` y retorna un arreglo o "tupla” cuyo primera valor representa el estado actual y el segundo valor siempre será una función (que puedes llamar como quieras) que te permite actualizar dicho estado.
@@ -31,9 +31,9 @@ En este tipo de componentes, el valor del input (o de cualquier otro elemento de
 
 ## Form
 
-El element `<form>` te permite reunir elementos de captura de datos, es un contenedor que por lo general permite enviar los datos reunidos al servidor  un "manejador del formulario" que se define en el atributo `action`, esto además de enviar los datos también refresca la página, un comportamiento que actualmente no se utiliza mucho. Con React tienes una forma de controlar que hacer con los datos recolectados por medio del evento `onSubmit`.
+El element `<form>` te permite reunir elementos de captura de datos, es un contenedor que por lo general permite enviar los datos reunidos al servidor un "manejador del formulario" que se define en el atributo `action`, esto además de enviar los datos también refresca la página, un comportamiento que actualmente no se utiliza mucho. Con React tienes una forma de controlar que hacer con los datos recolectados por medio del evento `onSubmit`.
 
-El evento  `onSubmit` recibe una función que a su vez recibe un evento. Esta función es ejecutada cuando el formulario es "enviado", por ejemplo al presionar el botón `submit` .
+El evento `onSubmit` recibe una función que a su vez recibe un evento. Esta función es ejecutada cuando el formulario es "enviado", por ejemplo al presionar el botón `submit` .
 
 SI estas usando componentes controlados, es decir, estado interno en tu componente entonces en el manejador de `onSubmit` simplemente debes leer el estado.
 
@@ -60,4 +60,5 @@ Para esto usaremos **componentes controlados** y definiremos una función para m
 1. Agrega un nuevo input al formulario y maneja un solo estado para todos los elementos. (Tip: puede usar la prop `name` para obtener los datos).
 
 ## 📣 Feedback
+
 Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2011)
