@@ -1,14 +1,6 @@
-# 🎉 Bienvenido
+# 🎉 Fundamentos de React
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-## 🚌 Fundamentos de React
-
-- Demo app:
+## 🚌 Bienvenido
 
 En este tutorial aprenderás los diferentes conceptos base que fundamentan el cómo y por qué de ciertas prácticas en React. Revisaremos que necesidad viene a cubrir, desde donde nace su API, el uso de JSX, como manejar estilos, eventos y estado de un componente
 
@@ -117,7 +109,7 @@ Cada lección "vive" dentro de su propio directorio dentro de este monorepo, par
 
 Cada concepto o contenido esta encapsulado en su propia lección y cada lección tiene su propio directorio con recursos, ejemplos de código y desafíos.
 
-En cada directorio encontrarás un nuevo archivo Readme.md, en el encontrarás una descripción de lo que encontrarás en la lección e instrucciones para llevar a cabo los ejercicios, desafíos o cuestionarios.
+En cada directorio encontrarás un nuevo archivo README.md, en el encontrarás una descripción de lo que encontrarás en la lección e instrucciones para llevar a cabo los ejercicios, desafíos o cuestionarios.
 
 Además encontrarás la configuración necesaria para ejecutar el proyecto que te permitirá resolver los ejercicios.
 
@@ -133,38 +125,17 @@ Para esto encontrás comentarios y emojis que te ayudarán en el camino.
 
 ### Listado de lecciones
 
-- [00 - Introducción](./leccion00/Readme.md)
-- [01 - Componentes](./leccion01/Readme.md)
-- [02 - Creando una app estática base ](./leccion02/Readme.md)
-- [03 - El mundo sin JSX](./leccion03/Readme.md)
-- [04 - Conociendo JSX](./leccion04/Readme.md)
-- [05 - Props](./leccion05/Readme.md)
-- [06 - Renderizado Condicional](./leccion06/Readme.md)
-- [07 - Composición](./leccion07/Readme.md)
-- [08 - Arrays](./leccion08/Readme.md)
-- [09 - Estilos](./leccion09/Readme.md)
-- [10 - Eventos](./leccion10/Readme.md)
-- [11 - Formularios: Componentes Controlados](./leccion11/Readme.md)
-- [12 - Formularios: Componentes No-Controlados](./leccion11/Readme.md)
-- [13 - Construyendo una interfaz](./leccion11/Readme.md)
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://horacioh.com/"><img src="https://avatars.githubusercontent.com/u/725120?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Horacio Herrera</b></sub></a><br /><a href="https://github.com/matiasfha/react-fundamentals/commits?author=horacioh" title="Code">💻</a> <a href="#infra-horacioh" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-    <td align="center"><a href="http://matiashernandez.dev/"><img src="https://avatars.githubusercontent.com/u/282006?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matías Hernández Arellano</b></sub></a><br /><a href="https://github.com/matiasfha/react-fundamentals/commits?author=matiasfha" title="Documentation">📖</a> <a href="#content-matiasfha" title="Content">🖋</a> <a href="https://github.com/matiasfha/react-fundamentals/commits?author=matiasfha" title="Code">💻</a> <a href="#infra-matiasfha" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#example-matiasfha" title="Examples">💡</a> <a href="#content-matiasfha" title="Content">🖋</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+- [00 - Introducción](./leccion-00/README.md)
+- [01 - Componentes](./leccion-01/README.md)
+- [02 - Creando una app estática base ](./leccion-02/README.md)
+- [03 - El mundo sin JSX](./leccion-03/README.md)
+- [04 - Conociendo JSX](./leccion-04/README.md)
+- [05 - Props](./leccion-05/README.md)
+- [06 - Renderizado Condicional](./leccion-06/README.md)
+- [07 - Composición](./leccion-07/README.md)
+- [08 - Arrays](./leccion-08/README.md)
+- [09 - Estilos](./leccion-09/README.md)
+- [10 - Eventos](./leccion-10/README.md)
+- [11 - Formularios: Componentes Controlados](./leccion-11/README.md)
+- [12 - Formularios: Componentes No-Controlados](./leccion-11/README.md)
+- [13 - Construyendo una interfaz](./leccion-11/README.md)
