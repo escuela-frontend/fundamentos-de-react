@@ -48,9 +48,6 @@ En esta lección revisaremos como utilizar la API “cruda” para crear element
 
 1. Crea una interfaz utilizando las API de Javascript. Para este ejercicio crearás elementos utilizando `document.createElement` y `document.appendChild`.
 
-- [ ] Crea un elemento H1.
-- [ ] Crea una lista de al menos dos items.
-
 2. Crear un elemento h1 utilizando las API de React.
 
 Para este ejercicio crearás un elemento `h1` utilizando `React.createElement` y lo desplegarás en la página principal.
