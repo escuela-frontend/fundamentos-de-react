@@ -1,4 +1,4 @@
-# Lección 10 - Eventos
+# Lección 10 - Eventos en React
 
 Una aplicación web tiene dos tareas esenciales: presentar información al usuario y “reaccionar” a acciones que el usuario realiza. Hasta ahora hemos visto como presentar información - creando componentes para renderizar cierto contenido - pero, ¿cómo reaccionar a una acción del usuario?.
 
@@ -63,7 +63,3 @@ Para esta lección usaremos algunos elementos que solicitan acciones de usuario 
 ## 🍬 Crédito Extra
 
 1. Crea un **componente** `Button` que acepta una prop `onClick`. Esta función estará definida en el componente padre.
-
-## 📣 Feedback
-
-Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2010)

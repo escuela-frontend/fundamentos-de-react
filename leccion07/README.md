@@ -1,4 +1,4 @@
-# Lesson 7 - Composicion
+# Lesson 7 - Composición de Componentes
 
 Uno de los conceptos que cambió radicalmente la forma en que desarrollamos aplicaciones en la web es la idea de utilizar componentes.
 

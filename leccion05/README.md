@@ -1,4 +1,4 @@
-# Leccion 05 - Props
+# Leccion 05 - Props en React
 
 En React los componentes son representados por funciones encapsulan lógica y descripción de la UI usando JSX. También sabemos que un componente React es en cierta forma una unidad aislada del mundo, pero al mismo tiempo sabemos que debe existir una forma de que el componente se comunique con el mundo exterior. Para esto se usa el concepto de **props**.
 
@@ -80,7 +80,3 @@ Para esto crearemos componentes que se comunicaran entre ellos mediante el uso d
 ## 🍬 Crédito Extra
 
 1. Considera que tienes un objeto con varios atributos, ¿cómo puedes pasar ese objeto directamente como props a tu componente?
-
-## 📣 Feedback
-
-Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2005)

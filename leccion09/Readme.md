@@ -1,4 +1,4 @@
-# Lección 09 - Estilos
+# Lección 09 - Manejo de Estilos en Componentes
 
 React ofrece dos formas básicas o por defecto para manejar los estilos de tus componentes.
 

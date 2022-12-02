@@ -1,4 +1,4 @@
-# Lección 02 - Configurar una aplicación estática
+# Lección 02 - Creando una Aplicación Estática
 
 Hay muchas formas de utilizar React para nuestros desarrollos, la forma más simple y básica de hacerlo es simplemente utilizando archivos estáticos, tus viejos amigos HTML, CSS y Javascript.
 

@@ -1,4 +1,4 @@
-# Lección 06 - Renderizado condicional
+# Lección 06 - Renderizado Condicional
 
 Una interfaz es la forma de representar datos en la pantalla para facilitar la interpretación de parte del usuario y también para permitir interactuar con esos datos. Es común que en dependiendo de alguna acción del usuario o de alguna particularidad de los datos quieras no mostrar ciertos componentes, es decir, querrás renderizar tus componentes de forma condicional.
 
@@ -36,7 +36,3 @@ Para esto definiremos el siguiente ejemplo.
 ## 🍬 Crédito Extra
 
 - Intenta utilizar un bloque condicional `if-else`. ¿Cuál es el resultado? ¿Por qué?
-
-## 📣 Feedback
-
-Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2006)

@@ -1,4 +1,4 @@
-# Lección 03 - El mundo sin JSX
+# Lección 03 - El Mundo sin JSX
 
 React ofrece una API “cruda” que te permite crear componentes y en realidad realizar todo lo que pienses sin necesidad de utilizar JSX.
 
@@ -69,7 +69,3 @@ Tip: Recuerda que `React.createElement` acepta como segundo parámetros un arreg
 
 1. Utilizando `React.createElement` crea una lista de 3 elementos utilizando `ul` y `li`.
 2. ¿Como definirías esta API. Imperativa o Declarativa? ¿Cómo se relaciona con la API nativa del DOM?
-
-## 📣 Feedback
-
-Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2003)

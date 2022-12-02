@@ -1,4 +1,4 @@
-# Lesson 08 - Arrays
+# Lesson 08 - Arrays en React
 
 Una de las estructuras de datos más utilizada en cualquier aplicación web es el Array. Esta simple estructura es la forma más sencilla de contener y manipular colecciones de datos. Por esto, es importante conocer como trabajar con ella al momento de utilizar componentes React.
 
@@ -48,7 +48,3 @@ En esta lección trabajaremos renderizando múltples elementos de forma “autom
 ## 🍬 Crédito Extra
 
 - Revisa el siguiente demo sobre como funciona la prop `key`. ¿Cuál es el problema al eliminar elementos?. ¿Cómo el uso de la prop `key`afecta el funcionamiento del demo? [https://codesandbox.io/s/react-array-keys-qmwwk?from-embed=&file=/src/App.js](https://codesandbox.io/s/react-array-keys-qmwwk?from-embed=&file=/src/App.js)
-
-## 📣 Feedback
-
-Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2008)

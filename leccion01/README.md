@@ -1,4 +1,4 @@
-# Lección 01 - Componentes
+# Lección 01 - Definiendo Componentes
 
 React es una poderosa librería que nos da la posibilidad de crear aplicaciones dinámicas por medio del uso de su poderosa y simple API. Pero lo realmente revolucionario de React no es sólo la tecnología y la implementación detrás de todo, si no, que el concepto instalado desde sus inicios. **Componentes** y una nueva forma de pensar tus aplicaciones: **Pensando en React.**
 
@@ -31,10 +31,6 @@ Para esta primera lección revisaremos una interfaz conocida para encontrar los 
 
 ---
 
-### 🏋️‍♂️Ejercicios
+### 🏋️‍♂️ Ejercicios
 
 Para hacer esto seleccionaremos una aplicación o interfaz y la dividiremos en los distintos componentes, podemos hacer esto de forma manual con lápiz y papel o utilizando alguna herramienta de dibujo.
-
-### 🍬 Crédito Extra
-
-- [ ] Listar una serie de componentes base de una interfaz genérica.

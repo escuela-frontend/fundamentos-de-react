@@ -1,4 +1,4 @@
-# Lección 11 - Formularios - Componentes Controlados
+# Lección 11 - Componentes Controlados
 
 La forma primaria de obtener datos de un usuario en un sitio web es por medio del formularios.
 
@@ -58,7 +58,3 @@ Para esto usaremos **componentes controlados** y definiremos una función para m
 ## 🍬 Crédito Extra
 
 1. Agrega un nuevo input al formulario y maneja un solo estado para todos los elementos. (Tip: puede usar la prop `name` para obtener los datos).
-
-## 📣 Feedback
-
-Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2011)

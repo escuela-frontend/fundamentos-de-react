@@ -1,4 +1,4 @@
-# Lección 13 - Construyamos una interfaz
+# Lección 13 - Construyamos Una Interfaz
 
 En esta lección podrás a prueba lo que has aprendido hasta ahora implementando una interfáz estática utilizando componentes React.
 
@@ -31,7 +31,3 @@ Para lograr esto tendrás acceso a algunos componentes pre-determinados y otros 
 ## 🍬 Crédito Extra
 
 - Desplegar en la lista de items el texto capturado en el componente formularuio.
-
-## 📣 Feedback
-
-Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2013)
