@@ -1,7 +1,5 @@
 # Fundamentos de React
 
-## 🚌 Bienvenido
-
 En este tutorial aprenderás los diferentes conceptos base que fundamentan el cómo y por qué de ciertas prácticas en React. Revisaremos que necesidad viene a cubrir, desde donde nace su API, el uso de JSX, como manejar estilos, eventos y estado de un componente
 
 ## 👨🏻‍💻 Resumen del tutorial
@@ -17,9 +15,9 @@ Ok. ¿listo y ansioso de aprender?, genial, este será un viaje divertido y llen
 - Cómo renderizar listas de datos y que es la prop key.
 - Cómo manejar formularios y eventos mendiante manipulación del estado.
 
-## 👨🏻‍💻¿Quién soy?
+## 👨🏻‍💻 ¿Quién soy?
 
-👋 Soy [Matías Hernández](https://matiashernandez.dev), padre, desarrollador, podcaster, escritor e instructor.
+Soy [Matías Hernández](https://matiashernandez.dev), padre, desarrollador, podcaster, escritor e instructor.
 
 Desde hace mucho tiempo (antes de que jQuery existiese) que escribo software y durante todos esos años el desarrollo web ha sido mi pasión. En los últimos 10 años he trabajado oficial y profesionalmente como Ingeniero de Software para diferentes proyectos. Durante esos años he recolectado muchas ideas, conceptos y conocimientos que intento destilar en diferentes formatos para ayudar a otros desarrolladores a mejorar su carrera.
 
@@ -46,11 +44,11 @@ Te invito a revisar tus conocimientos en esas áreas para que puedas sacar el m�
 
 Puedes revisar mi newsletter [Microbytes](https://microbytes.dev) y unirte al curso Javascript para React donde encontrarás más material al respecto.
 
-### 🛠 Requerimientos
+## 🛠 Requerimientos
 
 Para aprovechar al máximo nuestro tiempo durante el tutorial, por favor realiza los siguientes pasos antes de iniciar:
 
-#### Requerimientos del sistema
+### Requerimientos del sistema
 
 - [git](https://git-scm.com/) v2.13 o superior
 - [NodeJS](https://nodejs.org/) `12 || 14 || 15 || 16`
@@ -64,7 +62,7 @@ node --version
 npm --version
 ```
 
-#### Configuración
+### Configuración
 
 > Si gustas, puedes hacer un fork de este repositorio para poder ir "guardando" tu progreso.
 
@@ -85,7 +83,7 @@ npm install
 
 Si tienes algún error durante este proceso por favor [completa un issue](https://github.com/matiasfha/tutorial-react-desde-cero/issues/new) en el reposotiorio. Escribe en el toda la información de los pasos realizados y el resultado del script que ejecutaste
 
-#### Ejecutando los ejercicios
+### Ejecutando los ejercicios
 
 Para ejecutar los ejercicios, una vez que tienes los pasos anteriores listos, solo debes abrir la terminal y ejecutar
 
