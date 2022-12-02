@@ -16,7 +16,7 @@ Pensar en React es implementar un nuevo modelo mental que te permite rápidament
 
 ---
 
-# 🐾 Primeros pasos
+## 🐾 Primeros pasos
 
 El directorio de esta lección está vació y esto es por que en esta lección solo revisaremos algunos conceptos usando ejemplos de código e interfaces de otros proyectos.
 
