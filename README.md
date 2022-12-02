@@ -1,4 +1,4 @@
-# 🎉 Fundamentos de React
+# Fundamentos de React
 
 ## 🚌 Bienvenido
 

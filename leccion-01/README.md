@@ -31,6 +31,6 @@ Para esta primera lección revisaremos una interfaz conocida para encontrar los 
 
 ---
 
-### 🏋️‍♂️ Ejercicios
+### 🏋️‍♂️ Ejercicio
 
 Para hacer esto seleccionaremos una aplicación o interfaz y la dividiremos en los distintos componentes, podemos hacer esto de forma manual con lápiz y papel o utilizando alguna herramienta de dibujo.
