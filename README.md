@@ -2,7 +2,7 @@
 
 En este tutorial aprenderás los diferentes conceptos base que fundamentan el cómo y por qué de ciertas prácticas en React. Revisaremos que necesidad viene a cubrir, desde donde nace su API, el uso de JSX, como manejar estilos, eventos y estado de un componente
 
-## 👨🏻‍💻 Resumen del tutorial
+## ✨ Resumen de lo que aprenderás
 
 Ok. ¿listo y ansioso de aprender?, genial, este será un viaje divertido y lleno de desafíos. Algunas de las cosas que podrás aprender serán:
 
@@ -46,7 +46,9 @@ Puedes revisar mi newsletter [Microbytes](https://microbytes.dev) y unirte al cu
 
 ## 🛠 Requerimientos
 
-Para aprovechar al máximo nuestro tiempo durante el tutorial, por favor realiza los siguientes pasos antes de iniciar:
+> ❗ Cada ejercicio contiene una inserción de Stackblitz que puede usar si prefiere no instalar este repositorio localmente.
+
+Si prefieres installar este repositorio localmente por favor realiza los siguientes pasos antes de iniciar:
 
 ### Requerimientos del sistema
 
