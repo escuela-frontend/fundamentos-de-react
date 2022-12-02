@@ -86,7 +86,3 @@ Tu trabajo será utilizar estos estilos en tus componentes aplicando lo que hemo
 
 1. Además de usar estilos en linea, utiliza la clase `item` en cada item.
 2. Permite que el componente `Item` reciba una prop para modificar la clase css base.
-
-## 📣 Feedback
-
-Por favor completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfVXaAKvJ7aj_de08YTet3g4Go5FV7QrI9TJWkYI1UDg1KW6A/viewform?usp=pp_url&entry.1045988887=Lección%2009)
