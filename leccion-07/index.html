@@ -1,64 +1,65 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curso: React desde cero - Lección 07</title>
+    <title>Fundamentos de React -Lección 07</title>
     <!-- 💡 Estos son los archivos de React y Babel -->
-    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div id="root"></div>
-    
+
     <!-- 💡 Aquí será donde escribamos nuestros scripts -->
-    
+
     <script type="text/babel">
+      // 💡 Estos son los componentes bases que usarás para completar el ejercicio
+      // la idea es que puedas crear una interfaz usando estos componentes y la técnica de
+      // composición
+      const NavBar = () => {
+        return <h2>Barra de navegacion</h2>
+      }
 
-    // 💡 Estos son los componentes bases que usarás para completar el ejercicio
-    // la idea es que puedas crear una interfaz usando estos componentes y la técnica de 
-    // composición
-    const NavBar = ()=> {
+      const PageBody = () => {
+        return <h1>Main Con†ent</h1>
+      }
+
+      const Footer = () => {
+        return <h3>Footer Content</h3>
+      }
+
+      // 🏋️‍♂️ 2.¿Que props deberia recibir este componente para poder renderizar los componentes correctos?
+      // Tip: usarás interpolación para poder renderizar las props/comopnentes en el lugar correspondiente
+      const Page = () => {
         return (
-            <h2>Barra de navegacion</h2>
-        )
-    }
-
-    const PageBody = ()=> {
-        return (<h1>Main Con†ent</h1>)
-    }
-
-    const Footer = ()=> {
-        return (<h3>Footer Content</h3>)        
-    }
-
-
-    // 🏋️‍♂️ 2.¿Que props deberia recibir este componente para poder renderizar los componentes correctos?
-    // Tip: usarás interpolación para poder renderizar las props/comopnentes en el lugar correspondiente
-    const Page = () => {
-        return (
-            <div>
+          <div>
             <nav></nav>
             <main></main>
             <footer></footer>
-            </div>
+          </div>
         )
-    }
+      }
 
-    // 🏋️‍♂️ 1. Pasa las props correctas al componente Page
-    const App  = ()=> {
+      // 🏋️‍♂️ 1. Pasa las props correctas al componente Page
+      const App = () => {
         return (
-            <body>
-                <Page nav={<NavBar />}/>
-            </body>        )
-    }
+          <body>
+            <Page nav={<NavBar />} />
+          </body>
+        )
+      }
 
-    const root = document.getElementById('root')
-    ReactDOM.render(<App />, root)
-
+      const root = document.getElementById('root')
+      ReactDOM.render(<App />, root)
     </script>
-
-</body>
+  </body>
 </html>

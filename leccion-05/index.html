@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curso: React desde cero - Lección 05</title>
+    <title>Fundamentos de React -Lección 05</title>
     <!-- 💡 Estos son los archivos de React y Babel -->
-    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div id="root"></div>
-    
+
     <!-- 💡 Aquí será donde escribamos nuestros scripts -->
-    
+
     <script type="text/babel">
+      // 💡 Crea un componente quie muestre la información del usuario
+      // 🏋️‍♂️ ¿Como recibes las props nombre, email y telefono?
+      // despliega la información de las props
+      const UserInfo = () => {}
 
-    // 💡 Crea un componente quie muestre la información del usuario
-    // 🏋️‍♂️ ¿Como recibes las props nombre, email y telefono?
-    // despliega la información de las props
-    const UserInfo = ()=> {
-
-    }
-
-    // 💡  Este es el component padre que deberá contener al componente UserInfo
-    const ParentComponent = ()=> {
+      // 💡  Este es el component padre que deberá contener al componente UserInfo
+      const ParentComponent = () => {
         const nombre = 'User'
         const email = 'user@email.com'
         const telefono = '123344556'
         // 🏋️‍♂️ ¿Que debe retornar este componente padre?
-        return 
-    }
+        return
+      }
 
-    const root = document.getElementById('root')
-    // 💡  sRenderiza el componente padre
-    ReactDOM.render(<ParentComponent  />, root)
-
+      const root = document.getElementById('root')
+      // 💡  sRenderiza el componente padre
+      ReactDOM.render(<ParentComponent />, root)
     </script>
-
-</body>
+  </body>
 </html>

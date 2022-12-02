@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curso: React desde cero - Leccion 09</title>
+    <title>Fundamentos de React -Leccion 09</title>
     <!-- 💡 Estos son los archivos de React y Babel -->
-    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-     <style>
+    <style>
       .list {
-        list-style: none
+        list-style: none;
       }
       .item {
         background-color: lightblue;
@@ -27,27 +33,26 @@
         background-color: lightblue;
       }
       .item--purple {
-        background-color:purple ;
+        background-color: purple;
       }
       .item--underline {
         text-decoration: underline;
       }
-    
-  </style>
-</head>
-<body>
+    </style>
+  </head>
+  <body>
     <div id="root"></div>
-    
+
     <!-- 💡 Aquí será donde escribamos nuestros scripts -->
-    
+
     <script type="text/babel">
-        const root = document.querySelector('#root')
-        /* 🏋️‍♂️ 1. Renderiza una lista de elementos.
+      const root = document.querySelector('#root')
+      /* 🏋️‍♂️ 1. Renderiza una lista de elementos.
          El contenedor de la lista debe utiliza la clase `list` 
          y los elementos de la lista deben usar estilo en linea. 
          Por ejemplo para definir el tamaño de la fuente.
          */
-        /*
+      /*
         const Ul = ({ children}) => {
             return <ul 🚨 aqui debe ir la prop para definir la clase css>
             // 🚨 aqui debe ir la prop a renderizar
@@ -55,15 +60,14 @@
         }
         */
 
-
-        /* 🏋️‍♂️ 2. Define un componente que use una prop para recibir el estilo en linea de cada Item.ç
+      /* 🏋️‍♂️ 2. Define un componente que use una prop para recibir el estilo en linea de cada Item.ç
          la definición del estilo en linea deberá hacerse fuera del componente Item.
          
         💡 - Este componente aplicara `inline style` para definir el estilo que require
         💡 - Agrega una nueva prop para recibir los estilos
         */
-    
-        /*
+
+      /*
         const Item = ({ children }) => {
             return <li 🚨 aqui va la definicion del estilo en linea>
                 🚨 aqui va la prop a renderizar
@@ -71,31 +75,35 @@
          }
          */
 
-         /*
+      /*
          🏋️‍♂️ 3. Define el uso de diferentes tamaños de fuente para cada item renderizado. 
          Para esto tendrás que crear un arreglo con los valores que quieres usar
           y luego utilizar `Array.map` para acceder a cada tamaño 
           en el momento de renderizar cada elemento.
           💡  - Debes pasar los estilos en linea como una prop al componente Item
         */
-        const List = ({ items}) => {
-            /*
+      const List = ({items}) => {
+        /*
             🏋️‍♂️ 3. Arreglo de tamaños
             const fontSizes = []
             */
-            return (<Ul>
-            {/* 🚨 aquí debes renderizar los elmentos usando el componente `<Item>`  */}  
-            </Ul>
-            )
-        }
+        return (
+          <Ul>
+            {/* 🚨 aquí debes renderizar los elmentos usando el componente `<Item>`  */}
+          </Ul>
+        )
+      }
 
-        const data = ['Primer Item',<strong>Segundo Item</strong>, <em>Tercer Item</em>]
-  
-        const App = () => {
-          return <List items={data}/>
-        }
-        ReactDOM.render(<App />, root)
+      const data = [
+        'Primer Item',
+        <strong>Segundo Item</strong>,
+        <em>Tercer Item</em>,
+      ]
+
+      const App = () => {
+        return <List items={data} />
+      }
+      ReactDOM.render(<App />, root)
     </script>
-
-</body>
+  </body>
 </html>
